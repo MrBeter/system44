@@ -62,7 +62,7 @@ client.on("message", message => {
     }
 });
 client.on('message', message => {
-     if (message.content === ("*help")) {
+     if (message.content === (".help")) {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#8650a7")
